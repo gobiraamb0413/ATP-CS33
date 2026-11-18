@@ -1,58 +1,37 @@
-# DevConcord — Multi-Agent Data Intelligence Platform
+# Workspace: Baraneetharan Gobiraam (Member 02)
 
-DevConcord is an autonomous AI data intelligence platform engineered for modern IT & automation startups. It orchestrates a specialized fleet of autonomous agents across data inspection, machine learning, validation, human approval gates, and executive reporting.
+## Developer Profile
+- **Full Name:** Baraneetharan Gobiraam
+- **Handle:** Gobiraam
+- **Role:** Autonomous Dashboard & Workflow Lead
+- **Primary Domain:** Core Dashboard Architecture, Task DAG Graph, and Agent Fleet Console
 
 ---
 
-## Team Repository Architecture & File Division
-
-All website source files are divided into dedicated workspaces for each team member under `src/team/`:
-
+## Assigned Files & Structure
 ```text
-src/
-├── App.tsx                       # Master application router (imports from team workspaces)
-├── main.tsx                      # Vite React entry point
-├── index.css                     # Global Tailwind design tokens
-├── vite-env.d.ts                 # TypeScript declarations
-└── team/
-    ├── nivethith/                # Nivethith Arasakumar (Member1)
-    │   ├── pages/Home.tsx        # Public landing page
-    │   ├── components/           # Navbar, Hero, Features, HowItWorks, Integrations, Pricing, FAQ, Blog, Footer
-    │   └── README.md
-    ├── saeyon/                   # Raveeswaran Saeyon (Member 02)
-    │   ├── pages/Auth.tsx        # Operator authentication & OAuth session
-    │   └── README.md
-    ├── gobiraam/                 # Baraneetharan Gobiraam (Member 03)
-    │   ├── pages/Dashboard.tsx   # Autonomous diagnostic dashboard
-    │   ├── components/           # DashboardHeader, ObjectiveIntake, TaskGraphView, AgentFleetConsole, ApprovalGatesModal
-    │   └── README.md
-    ├── ashmiga/                  # Ashmiga Sathees (Member 04)
-    │   ├── components/           # ExecutiveReportView, RunHistoryView, EvidenceLedger, AgentCopilotDrawer
-    │   └── README.md
-    └── sarukan/                  # Poongunran Sarukan (Member 05)
-        ├── pages/NotFound.tsx    # 404 handler
-        ├── components/           # ChatWidget, DataConnectorsView, SettingsView
-        ├── components/ui/        # Button, Switch, Badge, GridBackground, ScrollProgressBar, ScrollReveal
-        ├── services/             # StartupTelemetrySample, api, scroll, utils
-        └── README.md
+src/team/gobiraam/
+├── pages/
+│   └── Dashboard.tsx             # Main dashboard container & scenario state orchestrator
+├── components/
+│   ├── DashboardHeader.tsx       # Top workspace bar, scenario status, and settings trigger
+│   ├── ObjectiveIntake.tsx       # Diagnostic goal configuration & dataset picker
+│   ├── TaskGraphView.tsx         # Real-time SVG task dependency DAG
+│   ├── AgentFleetConsole.tsx     # 6-worker agent status and live activity feed
+│   └── ApprovalGatesModal.tsx    # Human-in-the-loop decision & gate override drawer
+└── README.md                     # Workspace documentation
 ```
 
 ---
 
-## Quick Start
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Start local development server
-npm run dev
-
-# 3. Production build & verification
-npm run build
-```
+## Responsibilities
+1. Orchestrate the diagnostic state machine across intake, execution, and review.
+2. Coordinate with Ashmiga's evidence ledger and Sarukan's shared services.
+3. Manage repository initialization and core dashboard pull requests.
 
 ---
 
-## Collaboration Guide
-For Git branching strategy, commit conventions, and pull request workflows, see [TEAM_WORKFLOW.md](file:///D:/atp%20project/TEAM_WORKFLOW.md).
+## Git Workflow
+- **Branch:** `feature/gobiraam-dashboard-core`
+- **Integration Target:** Pull request into `develop`
+- **Reviewer:** Nivethith Arasakumar
