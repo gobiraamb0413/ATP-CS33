@@ -15,21 +15,21 @@ src/
 ├── index.css                     # Global Tailwind design tokens
 ├── vite-env.d.ts                 # TypeScript declarations
 └── team/
-    ├── nivethith/                # Nivethith Arasakumar (Project Lead)
+    ├── nivethith/                # Nivethith Arasakumar (Member1)
     │   ├── pages/Home.tsx        # Public landing page
     │   ├── components/           # Navbar, Hero, Features, HowItWorks, Integrations, Pricing, FAQ, Blog, Footer
     │   └── README.md
-    ├── saeyon/                   # Raveeswaran Saeyon (Member 01)
+    ├── saeyon/                   # Raveeswaran Saeyon (Member 02)
     │   ├── pages/Auth.tsx        # Operator authentication & OAuth session
     │   └── README.md
-    ├── gobiraam/                 # Baraneetharan Gobiraam (Member 02)
+    ├── gobiraam/                 # Baraneetharan Gobiraam (Member 03)
     │   ├── pages/Dashboard.tsx   # Autonomous diagnostic dashboard
     │   ├── components/           # DashboardHeader, ObjectiveIntake, TaskGraphView, AgentFleetConsole, ApprovalGatesModal
     │   └── README.md
-    ├── ashmiga/                  # Ashmiga Sathees (Member 03)
+    ├── ashmiga/                  # Ashmiga Sathees (Member 04)
     │   ├── components/           # ExecutiveReportView, RunHistoryView, EvidenceLedger, AgentCopilotDrawer
     │   └── README.md
-    └── sarukan/                  # Poongunran Sarukan (Member 04)
+    └── sarukan/                  # Poongunran Sarukan (Member 05)
         ├── pages/NotFound.tsx    # 404 handler
         ├── components/           # ChatWidget, DataConnectorsView, SettingsView
         ├── components/ui/        # Button, Switch, Badge, GridBackground, ScrollProgressBar, ScrollReveal
