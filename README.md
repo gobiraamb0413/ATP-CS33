@@ -1,47 +1,34 @@
-# Workspace: Poongunran Sarukan (Member 04)
+# Workspace: Ashmiga Sathees (Member 03)
 
 ## Developer Profile
-- **Full Name:** Poongunran Sarukan
-- **Handle:** Sarukan
-- **Role:** Design Systems, Platform Settings & Services Engineer
-- **Primary Domain:** Shared UI Library, Platform Settings, Data Connectors & Telemetry Models
+- **Full Name:** Ashmiga Sathees
+- **Handle:** Ashmii
+- **Role:** Data Science Reporting & Audit Engineer
+- **Primary Domain:** Executive Synthesis, Evidence Ledger, Run History & Copilot
 
 ---
 
 ## Assigned Files & Structure
 ```text
-src/team/sarukan/
-├── pages/
-│   └── NotFound.tsx              # Standalone 404 error page
+src/team/ashmiga/
 ├── components/
-│   ├── ChatWidget.tsx            # Floating support and model copilot widget
-│   ├── DataConnectorsView.tsx    # Live database connection manager (Postgres, Snowflake)
-│   ├── SettingsView.tsx          # Platform settings, budget caps, LLM & Slack webhooks
-│   └── ui/
-│       ├── Button.tsx            # Reusable button component
-│       ├── Switch.tsx            # Theme & boolean toggle component
-│       ├── Badge.tsx             # Status badge component
-│       ├── GridBackground.tsx    # Subtle geometric grid background
-│       ├── ScrollProgressBar.tsx # Top reading progress indicator
-│       └── ScrollReveal.tsx      # Smooth viewport intersection animator
-├── services/
-│   ├── StartupTelemetrySample.ts # Diagnostic scenario data models & sample datasets
-│   ├── api.ts                    # Backend API client
-│   ├── scroll.ts                 # Smooth scroll utility with Lenis engine
-│   └── utils.ts                  # Tailwind class merging utility (cn)
+│   ├── ExecutiveReportView.tsx   # Final synthesized finding & executive PDF download
+│   ├── RunHistoryView.tsx        # Historical audit log of past diagnostic runs
+│   ├── EvidenceLedger.tsx        # Verifiable claims linked to raw row traces
+│   └── AgentCopilotDrawer.tsx    # Slide-over copilot assistant with query shortcuts
 └── README.md                     # Workspace documentation
 ```
 
 ---
 
 ## Responsibilities
-1. Maintain shared UI design system and components used across landing and dashboard.
-2. Maintain platform settings, cost guardrails, and database connectors.
-3. Provide typed telemetry models and utilities for all team members.
+1. Deliver the Executive Synthesis with clear operational takeaways and KPIs.
+2. Maintain the Immutable Evidence Ledger ensuring mathematical proof for all claims.
+3. Manage the Run History table and interactive Agent Copilot assistant.
 
 ---
 
 ## Git Workflow
-- **Branch:** `feature/sarukan-shared-services`
+- **Branch:** `feature/ashmiga-reports-audit`
 - **Integration Target:** Pull request into `develop`
 - **Reviewer:** Nivethith Arasakumar
