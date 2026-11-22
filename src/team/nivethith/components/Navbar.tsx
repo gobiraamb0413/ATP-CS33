@@ -137,7 +137,7 @@ export const Navbar: React.FC = () => {
         </div>
 
         
-        <nav className="hidden md:flex items-center absolute left-1/2 -translate-x-1/2">
+        <nav className="hidden md:flex items-center">
           <div
             className={cn(
               "flex items-center gap-1 rounded-full px-2 py-1.5 transition-all duration-300 border backdrop-blur-sm",
