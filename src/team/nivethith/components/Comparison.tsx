@@ -93,11 +93,11 @@ export const Comparison: React.FC = () => {
               <div
                 key={row.feature}
                 className={cn(
-                  "grid grid-cols-3 border-b border-border/60 last:border-0 transition-colors hover:bg-muted/20 items-center",
+                  "grid grid-cols-3 border-b border-border/60 last:border-0 transition-colors hover:bg-muted/20 items-stretch",
                   idx % 2 === 1 ? "bg-muted/10" : ""
                 )}
               >
-                <div className="p-4 sm:p-5 text-sm font-medium text-foreground">
+                <div className="p-4 sm:p-5 text-sm font-medium text-foreground flex items-center">
                   {row.feature}
                 </div>
                 <div className="p-4 sm:p-5 border-x border-zinc-800/20 dark:border-zinc-200/20 bg-foreground/5 text-center flex items-center justify-center">
